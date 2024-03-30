@@ -1,19 +1,19 @@
-import React from 'react';
-
 import SubHeading from '../SubHeading/SubHeading';
 import './Newsletter.css';
+import { FaPhoneAlt } from "react-icons/fa";
 
 const Newsletter = () => (
   <div className="app__newsletter">
     <div className="app__newsletter-heading">
-      <SubHeading title="Newsletter" />
-      <h1 className="headtext__cormorant">Subscribe To Our Newsletter</h1>
-      <p className="p__opensans">And never miss latest Updates!</p>
+      <SubHeading title="Donar House" />
+      <h1 className="headtext__cormorant">Call Us Now!</h1>
+      <p className="p__opensans">Place your order to experience the best foods.</p>
     </div>
-    <div className="app__newsletter-input flex__center">
+    <FaPhoneAlt className='footer_phone_icon' />
+    {/* <div className="app__newsletter-input flex__center">
       <input type="email" placeholder="Enter your email address" />
       <button type="button" className="custom__button">Subscribe</button>
-    </div>
+    </div> */}
   </div>
 );
 

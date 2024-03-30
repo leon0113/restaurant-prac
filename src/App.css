@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 .section__padding {
-  padding: 4rem 6rem;
+  padding: 0rem 6rem;
 }
 
 .flex__center {
@@ -7,13 +8,22 @@
   justify-content: center;
   align-items: center;
 }
-
-.app__bg {
-  background: url('./assets/bg.png');
+.footer_bg{
+  background: url('./assets/footer.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
   background-attachment: fixed;
+  filter: blur(10px);
+}
+.app__bg {
+  /* background-color: black; */
+  background: url('./assets/bg2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  /* filter: blur(2px); */
 }
 
 .app__wrapper {
@@ -39,7 +49,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  /* background-color: red; */
   margin-left: 2rem;
 }
 
@@ -69,7 +79,7 @@
 
 .p__cormorant {
   font-family: var(--font-base);
-  color: var(--color-white);
+  color: white;
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: capitalize;
@@ -80,12 +90,12 @@
 
 .p__opensans {
   font-family: var(--font-alt);
-  color: var(--color-white);
+  color: rgb(255, 255, 255);
   font-weight: 400;
   letter-spacing: 0.04em;
   text-transform: capitalize;
   line-height: 28px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .headtext__cormorant {
@@ -143,13 +153,13 @@
 
 @media screen and (max-width: 850px) {
   .section__padding {
-    padding: 4rem;
+    padding: 0rem;
   }
 }
 
 @media screen and (max-width: 650px) {
   .section__padding {
-    padding: 4rem 2rem;
+    padding: 0rem 2rem;
   }
   
   .p__cormorant {

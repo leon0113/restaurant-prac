@@ -1,5 +1,12 @@
 .app__header {
-    background-color: var(--color-black);
+    /* background-color: var(--color-black); */
+    /* background-color: red; */
+     background: url('../../assets/headerBg.jpg');
+     background-position: top;
+     background-size: cover;
+     background-repeat: repeat;
+     /* background-attachment: fixed;  */
+     /* filter: blur(2px); */
 }
 
 .app__header-h1 {

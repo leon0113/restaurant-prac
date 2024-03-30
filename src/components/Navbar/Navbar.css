@@ -3,7 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--color-black);
+    /* background: var(--color-black); */
+    background-color: black;
 
     padding: 1rem 2rem;
 }

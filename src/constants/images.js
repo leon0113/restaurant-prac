@@ -20,6 +20,11 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
+import burger from '../assets/burger.jpg'
+import burger1 from '../assets/burger1.png'
+import gif from '../assets/git.gif'
+import headerBg from '../assets/headerBg.jpg'
+import kebab from '../assets/kebab.jpg'
 
 export default {
   bg,
@@ -44,4 +49,9 @@ export default {
   sign,
   quote,
   gericht,
+  burger,
+  burger1,
+  gif,
+  headerBg,
+  kebab
 };

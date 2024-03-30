@@ -1,5 +1,6 @@
 .app__aboutus {
     position: relative;
+    /* background-color: rgb(196, 4, 4); */
 }
 
 .app__aboutus-overlay {
@@ -51,6 +52,7 @@
     margin: 2rem 0;
     color: var(--color-grey);
 }
+
 
 @media screen and (min-width: 2000px) {
     .app__aboutus-content_knife img {
