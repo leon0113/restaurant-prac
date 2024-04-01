@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
@@ -10,7 +10,7 @@ const Chef = () => (
       <img src={images.chef} alt="chef_image" />
     </div>
     <div className="app__wrapper_info">
-      <SubHeading title="Chef's word" />
+      <SubHeading title="Our motive" />
       <h1 className="headtext__cormorant">What we believe in</h1>
 
       <div className="app__chef-content">

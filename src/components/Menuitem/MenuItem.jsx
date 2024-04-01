@@ -4,7 +4,7 @@ import { images } from '../../constants';
 
 const MenuItem = ({ title, price, tags }) => (
   <div className='menuCard'>
-    <img src={images.burger1} alt="" />
+    <img src={images.pizza} alt="" />
     <div className="app__menuitem">
       <div className="app__menuitem-head">
         <div className="app__menuitem-name">

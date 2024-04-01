@@ -13,16 +13,16 @@
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   filter: blur(10px);
 }
 .app__bg {
-  /* background-color: black; */
-  background: url('./assets/bg2.jpg');
+  background-color: black;
+  /* background: url('./assets/bg2.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   /* filter: blur(2px); */
 }
 

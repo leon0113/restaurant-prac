@@ -7,6 +7,8 @@ const App = () => (
     <Navbar />
     <Header />
     <SpecialMenu />
+    {/* <SpecialMenu />
+    <SpecialMenu /> */}
     {/* <SpecialMenu /> */}
     {/* <AboutUs /> */}
     <Chef />
