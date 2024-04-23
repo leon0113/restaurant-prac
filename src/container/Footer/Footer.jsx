@@ -14,9 +14,8 @@ const Footer = () => (
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact Us</h1>
         {/* <h1 className="bg-white">Contact Us</h1> */}
-        <p className="p__opensans">9 W 53rd St, New York, NY 10019, USA</p>
-        <p className="p__opensans">+1 212-344-1230</p>
-        <p className="p__opensans">+1 212-555-1230</p>
+        <p className="p__opensans">TENERRINLENKKI 6, 00560 HELSINKI</p>
+        <p className="p__opensans">Phone: 041 5731795</p>
       </div>
 
       <div className="app__footer-links_logo">

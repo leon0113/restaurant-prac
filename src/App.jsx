@@ -1,6 +1,6 @@
-import { Chef, FindUs, Footer, Gallery, Header, SpecialMenu } from './container';
-import { Navbar } from './components';
 import './App.css';
+import { Navbar } from './components';
+import { Chef, FindUs, Footer, Gallery, Header, SpecialMenu } from './container';
 
 const App = () => (
   <div>

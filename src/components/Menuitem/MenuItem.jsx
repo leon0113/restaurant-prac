@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 import './MenuItem.css';
-import { images } from '../../constants';
+// import { images } from '../../constants';
 
-const MenuItem = ({ title, price, tags }) => (
+const MenuItem = ({ image, title, price, tags, choose }) => (
   <div className='menuCard'>
-    <img src={images.pizza} alt="" />
+    <img src={image} alt="" />
     <div className="app__menuitem">
       <div className="app__menuitem-head">
         <div className="app__menuitem-name">
@@ -17,6 +17,7 @@ const MenuItem = ({ title, price, tags }) => (
       </div>
 
       <div className="app__menuitem-sub">
+        <p className="p__opensans" style={{ color: '#fffdf4' }}>{choose}</p>
         <p className="p__opensans" style={{ color: '#AAAAAA' }}>{tags}</p>
       </div>
     </div>

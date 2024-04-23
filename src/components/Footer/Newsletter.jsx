@@ -1,6 +1,5 @@
 import SubHeading from '../SubHeading/SubHeading';
 import './Newsletter.css';
-import { FaPhoneAlt } from "react-icons/fa";
 
 const Newsletter = () => (
   <div className="app__newsletter relative">

@@ -89,6 +89,7 @@
 }
 
 .p__opensans {
+  /* background-color: yellowgreen; */
   font-family: var(--font-alt);
   color: rgb(255, 255, 255);
   font-weight: 400;
