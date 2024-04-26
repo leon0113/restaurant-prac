@@ -3,7 +3,7 @@ import { Navbar } from './components';
 import { Chef, FindUs, Footer, Gallery, Header, SpecialMenu } from './container';
 
 const App = () => (
-  <div>
+  <div className='mainClass'>
     <Navbar />
     <Header />
     <SpecialMenu />
@@ -11,12 +11,11 @@ const App = () => (
     <SpecialMenu /> */}
     {/* <SpecialMenu /> */}
     {/* <AboutUs /> */}
-    <Chef />
-    <Chef />
     {/* <Intro /> */}
     {/* <Laurels /> */}
-    <Gallery />
     <FindUs />
+    <Chef />
+    <Gallery />
     <Footer />
   </div>
 );

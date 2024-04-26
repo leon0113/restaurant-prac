@@ -4,7 +4,7 @@ const wines = [
   {
     image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
     choose: "valitse liha: voner/falafel",
-    title: 'KEBAB PITALEIVALLA',
+    title: 'KEBAB PITALE',
     price: '€9,90',
     tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
   },
@@ -25,24 +25,24 @@ const wines = [
   {
     image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
     choose: "valitse liha: nauta/kana",
-    title: 'KEBAB RANSKALAISILLA',
+    title: 'KEBAB ',
     price: '€10,90',
     tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
   },
   {
     image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
     choose: "valitse liha: nauta/kana",
-    title: 'RULLAKEBAB',
+    title: 'RULLAKERAN SKALAISILLA',
     price: '€11,90',
     tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
   },
-  {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
-    choose: "valitse liha: nauta/kana",
-    title: 'RULLAKEBAB FETA TAI AURAJUUSTOLLA',
-    price: '€13,90',
-    tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
-  },
+  // {
+  //   image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+  //   choose: "valitse liha: nauta/kana",
+  //   title: 'RULLAKEBAB',
+  //   price: '€13,90',
+  //   tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
+  // },
   {
     image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
     choose: "valitse liha: nauta/kana",

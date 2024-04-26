@@ -30,7 +30,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   min-height: 100vh;
 }
 
@@ -160,7 +159,7 @@
 
 @media screen and (max-width: 650px) {
   .section__padding {
-    padding: 0rem 2rem;
+    padding: 0rem 1rem;
   }
   
   .p__cormorant {
@@ -173,6 +172,9 @@
 }
 
 @media screen and (max-width: 450px) {
+  /* .mainClass{
+    width: auto;
+  } */
   .p__opensans {
     font-size: 12px;
   }
